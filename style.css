@@ -1,0 +1,48 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+#section-1{
+    display: flex;
+    flex-direction: row;
+}
+
+#section-1 .images {
+    background-color: #200720;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100px;
+    align-items: center;
+    height: 100%;
+}
+
+.images img{
+    width: 50px;
+    height: 50px;
+}
+
+#section-1 .imformative-section{
+background-color: #3f0d40;
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 250px;
+height: 100%;
+color: white;
+align-content: flex-start;
+}
+
+.imformative-section li{
+    list-style: none;
+}
+
+#section-2{
+    
+}
